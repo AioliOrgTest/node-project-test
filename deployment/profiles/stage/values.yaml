@@ -1,0 +1,12 @@
+d_env_data_NEW_RELIC_APP_NAME: 'Staging - node-project-test'
+newrelic:
+  labels: null
+
+ingress_external:
+  host: manifest_not_included_in_this_profile
+
+ingress_restricted:
+  host: use1-stage-node-project-test.percipio.com
+
+virtualservice_restricted:
+  host: use1-stage-node-project-test.percipio.com
